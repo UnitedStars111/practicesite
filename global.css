@@ -1,0 +1,200 @@
+/* Barisso's css file */
+
+ body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background: PowderBlue;
+} 
+
+@font-face {font-family: 'OpenDyslexic-Regular';
+	src: url(OpenDyslexic-Regular.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, h2, h3 {
+	font-family: verdana, arial, sans-serif;
+	text-align: center;
+	color: red;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+/* body {
+	font-family: "OpenDyslexic-Regular", arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background: white url(css/bodybackground.jpg);
+} */
+
+img {
+	padding: 4px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+a {
+	color: Purple;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid #898989;
+	padding-bottom: 1px;
+}
+
+div#wrapperindex {
+	width: 728px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #ebf5fc;
+	background-image: url(images/wrap-bg.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+	background-attachment: scroll;
+	border: 2px dotted black;
+}
+
+header {
+	height: 90px;
+	margin-bottom: 20px;
+}
+
+ header h1, header p {
+	text-indent: 9999999999px;
+}
+
+body.home header {
+	background: white url(images/bannerhome2.png) no-repeat;
+}
+
+body.about {
+	background: white url(images/bannerabout.png);
+	background-repeat: repeat-x repeat-y;
+	text-color: black;
+}
+
+div#wrapperabout {
+	width: 728px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: aliceblue;
+	border: 2px dotted black;
+}
+
+div#wrapperservices {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bbottom: 10px;
+	background-color: cornflowerblue;
+	border: 2px dotted black;
+}
+
+body.about header {
+	background: white url(images/aboutbanner.png) no-repeat;
+}
+
+div#wrappercontact {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: lightgray;
+	border: 2px dotted black;
+}
+
+body.services img {
+	float: right;
+}
+
+article {
+	float: left;
+	width: 500px;
+	padding-left: 10px;
+}
+
+nav {
+	float: right;
+	width: 200px;
+	padding-right: 5px;
+}
+
+nav ul {
+	list-style-type: none;
+	border: 1px solid #aabadd;
+	margin-left: 0;
+	padding-left: 5px;
+	border-bottom: none;
+	display: block;
+	line-height: 2;
+	height: 1%;
+}
+nav a {
+	display: block;
+	background: #ebecf6;
+	padding-left: 1px;
+	line-height: 2;
+	border-bottom-color: #aabadd;
+	height: 1%;
+}
+
+nav a:hover {
+	background-color: white;
+}
+
+table {
+	border: 1px solid black;
+}
+
+caption {
+	display; none;
+}
+
+thead {
+	color: white;
+	background-color: #cccccc;
+	text-align: left;
+}
+tbody {
+	font-family: Georgia, serif;
+	font-size: 90%;
+}
+
+nav li {
+	display: inline;
+}
+
+footer {
+	clear: both;
+	padding: 10px;
+	font-size: 75%;
+	background-color: #0000ff;
+	color: #ffffff;
+	border-top: 2px dotted #464646;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
+footer a:link {
+	color: yellow;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+	background-color: transparent;
+	border: none;
+}
